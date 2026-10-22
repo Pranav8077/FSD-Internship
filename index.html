@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Pranav Mittal's personal portfolio website showcasing web development, projects, and skills.">
+  <title>Pranav Mittal | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Pranav Mittal home"><span class="brand-mark">P</span><span>Pranav<span
+            class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu"
+        aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a><a href="#about" class="nav-link">About</a><a href="#skills"
+          class="nav-link">Skills</a><a href="#projects" class="nav-link">Projects</a><a href="#contact"
+          class="nav-link">Contact</a>
+        <a class="button button-small" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="hello">Hello, I'm</p>
+        <h1>Pranav <span class="gradient-text">Mittal.</span></h1>
+        <h2>I build things for the <span class="underline-text">web.</span></h2>
+        <p class="hero-description">A B.Tech Information Technology student who enjoys turning ideas into clean,
+          responsive, and useful digital experiences.</p>
+        <div class="hero-actions"><a href="#projects" class="button">Explore my work <span
+              aria-hidden="true">↘</span></a><a href="#contact" class="button button-ghost">Get in touch</a></div>
+        <div class="social-row"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub
+            <span>↗</span></a><span class="social-separator">/</span><a href="https://www.linkedin.com/" target="_blank"
+            rel="noreferrer">LinkedIn <span>↗</span></a><span class="social-separator">/</span><a
+            href="mailto:hello@example.com">Email <span>↗</span></a></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="floating-chip chip-html">&lt;/&gt; <small>HTML</small></div>
+        <div class="floating-chip chip-js">JS <small>JavaScript</small></div>
+        <div class="floating-chip chip-css">✦ <small>CSS</small></div>
+        <div class="code-window">
+          <div class="window-top"><span></span><span></span><span></span><label>developer.js</label></div>
+          <div class="code-lines">
+            <p><i>01</i> <span class="code-purple">const</span> developer = {</p>
+            <p><i>02</i> &nbsp; name: <span class="code-green">'Pranav'</span>,</p>
+            <p><i>03</i> &nbsp; role: <span class="code-green">'Web Developer'</span>,</p>
+            <p><i>04</i> &nbsp; learning: <span class="code-blue">'Every day'</span>,</p>
+            <p><i>05</i> &nbsp; passion: <span class="code-green">'Building'</span></p>
+            <p><i>06</i> };</p>
+            <p class="code-comment"><i>07</i> // Turning ideas into reality ✨</p>
+          </div>
+          <div class="code-footer"><span class="status-dot"></span> All systems learning <span
+              class="code-footer-right">UTF-8&nbsp;&nbsp; JavaScript</span></div>
+        </div>
+        <div class="hero-badge"><span class="badge-star">✦</span>
+          <div><strong>Curious by nature</strong><small>Building one project at a time</small></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <p class="section-kicker">01 / ABOUT ME</p>
+        <h2>A little about <span class="gradient-text">my journey.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="lead">I’m a technology student who likes learning by building.</p>
+          <p>I’m currently pursuing a B.Tech in Information Technology at ABES Engineering College. I’m exploring
+            frontend development, programming, databases, and machine learning while strengthening my problem-solving
+            skills.</p>
+          <p>My goal is to create digital products that are easy to use, look thoughtful, and solve real problems. This
+            portfolio is a small step in documenting that journey.</p><a href="#contact" class="text-link">Have a
+            project in mind? Let's connect <span>↗</span></a>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card"><strong>01</strong><span>Curiosity first</span>
+            <p>Always learning new tools and techniques.</p>
+          </div>
+          <div class="stat-card"><strong>02</strong><span>Build to learn</span>
+            <p>Turning concepts into working projects.</p>
+          </div>
+          <div class="stat-card"><strong>03</strong><span>Keep improving</span>
+            <p>Iterating on code, design, and process.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal">
+        <p class="section-kicker">02 / TOOLKIT</p>
+        <h2>Skills I'm <span class="gradient-text">working with.</span></h2>
+        <p class="section-subtitle">A growing toolkit for building and problem-solving.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon purple">⌘</div>
+          <h3>Frontend</h3>
+          <p>Creating responsive, accessible interfaces.</p>
+          <div class="tag-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React basics</span>
+          </div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon green">{ }</div>
+          <h3>Programming</h3>
+          <p>Practising fundamentals and algorithms.</p>
+          <div class="tag-list"><span>C</span><span>C++</span><span>Java</span><span>Python</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon orange">▤</div>
+          <h3>Backend & Data</h3>
+          <p>Learning how applications store and process data.</p>
+          <div class="tag-list"><span>PHP</span><span>MySQL</span><span>Git</span><span>GitHub</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon blue">◈</div>
+          <h3>Exploring</h3>
+          <p>Building a foundation in data and intelligent systems.</p>
+          <div class="tag-list"><span>Machine Learning</span><span>OpenCV</span><span>Pandas</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-kicker">03 / SELECTED WORK</p>
+        <h2>Projects & <span class="gradient-text">experiments.</span></h2>
+        <p class="section-subtitle">A selection of projects to show what I'm learning. Replace the links with your
+          actual repositories and live demos.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-visual visual-retail">
+            <div class="visual-top"><span>PROJECT_01</span><span>VISION / ML</span></div>
+            <div class="shelf-scene">
+              <div class="shelf-row"><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="shelf-row"><i></i><i></i><i></i><i></i></div>
+              <div class="shelf-row"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="visual-label">Shelf anomaly detection <span>↗</span></div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>Machine Learning</span><span>01</span></div>
+            <h3>Vision-Based Retail Shelf Monitoring</h3>
+            <p>A concept project focused on detecting unusual patterns on retail shelves using computer vision
+              techniques.</p>
+            <div class="project-bottom">
+              <div class="tag-list"><span>Python</span><span>OpenCV</span><span>ML</span></div><a
+                href="https://github.com/" target="_blank" rel="noreferrer"
+                aria-label="Retail project GitHub link">↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-ayur">
+            <div class="visual-top"><span>PROJECT_02</span><span>WEB APP</span></div>
+            <div class="ayur-symbol">✳</div>
+            <div class="ayur-name">Ayur<span>sutra</span></div>
+            <div class="ayur-caption">Wellness · Balance · Lifestyle</div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>Frontend Development</span><span>02</span></div>
+            <h3>Ayursutra Wellness Guidance</h3>
+            <p>A responsive React interface for presenting personalized wellness, diet, and lifestyle guidance.</p>
+            <div class="project-bottom">
+              <div class="tag-list"><span>React</span><span>CSS</span></div><a href="https://github.com/"
+                target="_blank" rel="noreferrer" aria-label="Ayursutra GitHub link">↗</a>
+            </div>
+          </div>
+        </article>
+      
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="section-kicker">04 / CONTACT</p>
+        <h2>Let's make something<br><span class="gradient-text">meaningful.</span></h2>
+        <p class="contact-description">Have an opportunity, idea, or just want to connect? My inbox is open.</p><a
+          class="button" href="mailto:hello@example.com">Send me an email <span>↗</span></a>
+        <div class="contact-note">Update <strong>hello@example.com</strong> with your real email before publishing.
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">P</span><span>Pranav<span
+          class="brand-dot">.</span></span></a>
+    <p>Designed & built with curiosity. © <span id="year"></span> Pranav Mittal.</p><a href="#home"
+      class="back-top">Back to top ↑</a>
+  </footer>
+</body>
+
+</html>
